@@ -1,0 +1,32 @@
+/* style.css */
+
+/* Center the main content */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Optional: Center vertically within the viewport height */
+}
+
+/* Center the button */
+.btn-container {
+    display: flex;
+    justify-content: center;
+     /* Optional: Center vertically within the viewport height */
+}
+
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
